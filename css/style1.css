@@ -109,6 +109,9 @@ footer {
 	
 }
 
+footer p {
+	padding-left: 20px;
+}
 
 #footer_contact {
 	text-align: center;

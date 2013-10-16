@@ -109,6 +109,12 @@ footer {
 	border-top: solid 2px #aaacb1;
 }
 
+
+#social_media {
+	float: left;
+}
+
+
 #facebook {
 	padding-left: 50px;
 }

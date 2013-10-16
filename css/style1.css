@@ -19,9 +19,9 @@ h1 {
 /*========Header============*/
 
 header {
-	padding-bottom: 80px;
+	min-width: 100%;
+	padding-bottom: 10px;
 	padding-top: 
-	
 	margin: 0 auto;
 	background-color: #aaacb1;
 	border-bottom: solid 2px #133062;
@@ -100,9 +100,11 @@ ul.submenu li {
 /*=========footer============*/
 
 footer {
+	min-width: 100%;
 	background-color: #15346b;
 	padding: 20px;
 	padding-top: 40px;
+	margin: 0 auto;
 	font-size:  0.8em;
 	color: #aaacb1;
 	

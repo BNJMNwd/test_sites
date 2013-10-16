@@ -25,6 +25,7 @@ h1 {
 
 .largep {
 	font-size: 1.3em;
+	text-align: center;
 
 }
 
@@ -140,6 +141,7 @@ ul.submenu li {
 }
 
 .container a {
+	text-align: center;
 	color:#794a28;
 	text-decoration: none;
 	}
@@ -157,11 +159,9 @@ ul.submenu li {
 	color: #f7e71e;
 	}
 
-
-
-
-
-
+.container iframe {
+	align: center;
+}
 
 
 

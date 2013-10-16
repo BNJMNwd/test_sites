@@ -134,27 +134,26 @@ ul.submenu li {
 
 .container {
 	background-color: rgba(170, 172, 178, 0.8);	
-	margin: 0;
 	padding-top: 10px;
 	padding-bottom: 20px;
 
 }
 
-.wrapper a {
+.container a {
 	color:#794a28;
 	text-decoration: none;
 	}
 
 
-.wrapper a:visted {
+.container a:visted {
 	color: #794a28;
 }
 
-.wrapper a:hover {
+.container a:hover {
 	color: #15346b; 
 }
 
-.wrapper a:active; {
+.container a:active; {
 	color: #f7e71e;
 	}
 

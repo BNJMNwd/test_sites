@@ -2,8 +2,6 @@
 
 
 
-
-
 body {
 	font-family: 'Marcellus', serif;
 	max-width: 996px;
@@ -21,12 +19,12 @@ h1 {
 .pcenter {
 	text-align: center; 
 	font-size: 1em;
+	line-height: 1.2em;
 }
 
 .largep {
 	font-size: 1.3em;
-	text-align: center;
-
+	line-height: 1.4em
 }
 
 h2 {
@@ -47,7 +45,10 @@ p {
 	color: #794a28;
 }
 
-
+ul {
+	max-width: 600px;
+	color: #794a28;
+}
 
 /*========Header============*/
 
@@ -80,7 +81,7 @@ header img {
 
 .bt li a {
 	display:block;
-	padding-left: 10px;
+	padding-right: 15px;
 	line-height: 2.5em;
 	color:#133062;
 	text-decoration: none;

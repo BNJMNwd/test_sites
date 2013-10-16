@@ -103,7 +103,6 @@ footer {
 	min-width: 100%;
 	background-color: #15346b;
 	margin: 0 auto;
-	padding-top: 40px;
 	font-size:  0.8em;
 	color: #aaacb1;	
 }
@@ -113,6 +112,7 @@ footer {
 }
 
 #youtube {
+	padding-top: 10px;
 	padding-left: 50px;
 }
 

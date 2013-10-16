@@ -111,8 +111,8 @@ footer {
 
 
 #social_media {
-	float: left;
-	padding-right: 50%;
+	/*float: left;*/
+	padding-right: 60%;
 }
 
 
@@ -123,6 +123,10 @@ footer {
 #youtube {
 	margin-top: 10px;
 	padding-left: 50px;
+}
+
+#contact {
+	text-align: left;
 }
 
 footer a {

@@ -116,6 +116,10 @@ footer {
 	padding-left: 50px;
 }
 
+#contact {
+	color: red;
+}
+
 footer p {
 	padding-left: 20px;
 }
@@ -124,6 +128,7 @@ footer p {
 	text-align: center;
 	font-size: .7em;
 	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 

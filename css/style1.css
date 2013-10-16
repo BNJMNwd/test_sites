@@ -128,7 +128,8 @@ footer a:visted {
 }
 
 footer a:hover {
-	color: #794a28;
+	color: #15346b;
+	background-color: #aaacb1; 
 }
 
 footer a:active; {

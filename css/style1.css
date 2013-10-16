@@ -2,16 +2,41 @@
 
 
 
+
+
 body {
 	font-family: 'Marcellus', serif;
 	max-width: 996px;
 	margin: 0 auto;
 	padding: 0;
+	background-image: url("../images/fur.png");
+	background-color: #a08462;
 	}
 
 h1 {
 	margin: 0px;
 	text-indent: -990000px;
+}
+
+.pcenter {
+	text-align: center; 
+	font-size: 1em;
+}
+
+.largep {
+	font-size: 1.3em;
+
+}
+
+h2, h3, h4 {
+	font-family: 'Caesar Dressing', cursive;
+	color: #133062;
+	font-size: 1.8em;
+	text-align: center;
+	}
+
+p {
+	color: #794a28;
 }
 
 
@@ -51,6 +76,7 @@ header img {
 	padding-left: 10px;
 	line-height: 2.5em;
 	color:#133062;
+	text-decoration: none;
 	}
 
 
@@ -60,6 +86,8 @@ header img {
 
 .bt li a:hover {
 	color: #794a28;
+	text-decoration: underline;
+
 }
 
 .bt li a:active; {
@@ -94,6 +122,48 @@ ul.submenu li {
 	position:relative;
 	}
 
+/*============body============*/
+
+
+
+.wrapper {
+	background-color: rgba(170, 172, 178, 0.8);	
+	margin: 0;
+	padding: 20px;
+}
+
+.wrapper a {
+	color:#794a28;
+	text-decoration: none;
+	}
+
+
+.wrapper a:visted {
+	color: #794a28;
+}
+
+.wrapper a:hover {
+	color: #15346b; 
+}
+
+.wrapper a:active; {
+	color: #f7e71e;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -122,6 +192,7 @@ footer {
 
 footer a {
 	color:#aaacb1;
+	text-decoration: none;
 	}
 
 
@@ -132,6 +203,7 @@ footer a:visted {
 footer a:hover {
 	color: #15346b;
 	background-color: #aaacb1; 
+	text-decoration: underline;
 }
 
 footer a:active; {
@@ -140,6 +212,7 @@ footer a:active; {
 
 footer p {
 	padding-left: 20px;
+	color: #aaabb1;
 }
 
 #footer_contact {

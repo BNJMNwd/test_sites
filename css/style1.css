@@ -112,6 +112,7 @@ footer {
 
 #social_media {
 	float: left;
+	padding-right: 50%;
 }
 
 
@@ -123,7 +124,6 @@ footer {
 	margin-top: 10px;
 	padding-left: 50px;
 }
-
 
 footer a {
 	color:#aaacb1;

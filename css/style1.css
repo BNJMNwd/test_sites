@@ -21,7 +21,7 @@ h1 {
 header {
 	min-width: 100%;
 	padding-bottom: 10px;
-	padding-top: 
+	padding-top: 40px;
 	margin: 0 auto;
 	background-color: #aaacb1;
 	border-bottom: solid 2px #133062;
@@ -78,10 +78,10 @@ ul.submenu {
 	z-index:1;
 	width:135px;
 	background-color: #aaacb1;
-	-moz-box-shadow: 	1px 1px 5px #172742, -1px 1px 5px #172742; 
-	-o-box-shadow:		1px 1px 5px #172742, -1px 1px 5px #172742; 
-	-webkit-box-shadow: 1px 1px 5px #172742, -1px 1px 5px #172742;
-	box-shadow: 		1px 1px 5px #172742, -1px 1px 5px #172742; 
+	-moz-box-shadow: 	1px 1px 5px #172742, -1px -1px 5px #172742; 
+	-o-box-shadow:		1px 1px 5px #172742, -1px -1px 5px #172742; 
+	-webkit-box-shadow: 1px 1px 5px #172742, -1px -1px 5px #172742;
+	box-shadow: 		1px 1px 5px #172742, -1px -1px 5px #172742; 
 	}
 
 .topmenu li:hover ul{
@@ -100,11 +100,11 @@ ul.submenu li {
 /*=========footer============*/
 
 footer {
-	min-width: 100%;
+	width: 100%;
 	background-color: #15346b;
+	margin: 0 auto;
 	padding: 20px;
 	padding-top: 40px;
-	margin: 0 auto;
 	font-size:  0.8em;
 	color: #aaacb1;
 	

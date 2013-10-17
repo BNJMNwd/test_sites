@@ -2,11 +2,13 @@
 
 
 .fb-like-box { 
-	display: block; margin: 0 auto; 
+	display: block; 
+	margin: 0 auto; 
 }
 
 .youtube_player { 
-	display: block; margin: 0 auto; 
+	display: block;
+	margin: 0 auto; 
 }
 
 .fb-like-box {

@@ -12,6 +12,13 @@
 }
 
 
+.container img {
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+	padding-bottom: 25px;
+}
+
 body {
 	font-family: 'Marcellus', serif;
 	max-width: 996px;

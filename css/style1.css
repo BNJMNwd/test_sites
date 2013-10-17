@@ -1,6 +1,6 @@
 /*=====test css=======*/
 
-
+.youtube_player { display: block; margin: 0 auto; }
 
 .fb-like-box {
 	background-color: white;

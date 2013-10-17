@@ -4,6 +4,10 @@
 	background-color: white;
 	margin-left: auto; 
 	margin-right: auto;
+	-moz-box-shadow: 	1px 1px 5px #172742, -1px -1px 5px #172742; 
+	-o-box-shadow:		1px 1px 5px #172742, -1px -1px 5px #172742; 
+	-webkit-box-shadow: 1px 1px 5px #172742, -1px -1px 5px #172742;
+	box-shadow: 		1px 1px 5px #172742, -1px -1px 5px #172742; 
 }
 
 

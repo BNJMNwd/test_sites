@@ -264,14 +264,14 @@ footer p {
 }
 
 
-.container dl {
+.red dl {
 	width: 946.2px; 
 	margin: 0 auto; 
 	padding: 10px;
 	overflow: hidden;
 }
 
-dl li {
+.red dl li {
 	margin-left: 48.7333333333px;
 	float: left; 
 	}
@@ -280,11 +280,20 @@ dl li {
 	display: block;
 }
 
-/*
-.left_1 {
-	padding-left: 68px;
-	padding-right: 10px; 
-	float: left;
+
+.green dl {
+	width: 946.2px; 
+	margin: 0 auto; 
+	padding: 10px;
+	overflow: hidden;
 }
 
-*/
+.green dl li {
+	padding-left: 28.7333333px;
+	float: left; 
+	}
+
+.animal {
+	display: block;
+}
+

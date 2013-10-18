@@ -29,10 +29,10 @@
 	margin-left: auto; 
 	margin-right: auto;
 	margin-bottom: 25px;
-	-moz-box-shadow: 	1px 1px 5px #172742, -1px -1px 5px #172742; 
-	-o-box-shadow:		1px 1px 5px #172742, -1px -1px 5px #172742; 
-	-webkit-box-shadow: 1px 1px 5px #172742, -1px -1px 5px #172742;
-	box-shadow: 		1px 1px 5px #172742, -1px -1px 5px #172742; 
+	-moz-box-shadow: 	1px 1px 5px #66676c, -1px -1px 5px #66676c; 
+	-o-box-shadow:		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
+	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
+	box-shadow: 		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
 	}	
 
 body {

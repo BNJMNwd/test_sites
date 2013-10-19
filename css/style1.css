@@ -1,56 +1,18 @@
-/*=====test css=======*/
+/*=====Exotic Animal css=======*/
 
-#meet {
-	text-align: center;
-}
-
-
-#at a{
-	color: #794a28;
-	font-size: 1.1em;
-}
-
-
-
-
-.fb-like-box { 
-	display: block; 
-	margin: 0 auto; 
-}
-
-.youtube_player { 
-	display: block;
-	margin: 0 auto; 
-}
 
 .fb-like-box {
 	background-color: white;
 }
 
-
-.facts li {
-	list-style-type: circle;
+.container {
+	background-color: rgba(170, 172, 178, 0.8);	
 }
-.facts {
-  	display:block;
-  	width:600px; 
-	margin:0px auto; 
-}
-.container img {
-	display: block;
-	margin-left: auto; 
-	margin-right: auto;
-	margin-bottom: 25px;
-	-moz-box-shadow: 	1px 1px 5px #66676c, -1px -1px 5px #66676c; 
-	-o-box-shadow:		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
-	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
-	box-shadow: 		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
-	}	
 
+
+	
 body {
 	font-family: 'Marcellus', serif;
-	max-width: 996px;
-	margin: 0 auto;
 	padding: 0;
 	background-image: url("../images/fur.png");
 	background-color: #a08462;
@@ -65,7 +27,7 @@ h1 {
 	display: block; 
 	margin-left: auto;
 	margin-right: auto;	
-	max-width: 900px;
+	max-width: 90.361445783% /*900px*/;
 	text-align: center; 
 	font-size: 1em;
 	line-height: 1.2em;
@@ -95,15 +57,14 @@ p {
 }
 
 ul {
-	max-width: 600px;
+	min-width: 60.240963855% /*600px*/;
 	color: #794a28;
 }
 
 /*========Header============*/
 
 header {
-	min-width: 100%;
-	padding-top: 10px;
+	width: 100%;
 	margin: 0 auto;
 	background-color: #aaacb1;
 	border-bottom: solid 2px #133062;
@@ -112,18 +73,31 @@ header {
 
 header img {
 	float: left;
-	padding-left: 20px;
-	margin-right: 20px;
-	margin-top: -40px;
+	padding-left: 02.008032128% /*20px*/;
+	margin-right: 02.008032128% /*20px*/;
+	margin-top: -80px;
+	-moz-box-shadow: 	none;
+	-o-box-shadow:		none;
+	-webkit-box-shadow: none;
+	box-shadow: 		none;
+	
 	}
 	
 /*====== nav ======*/
+
+
+
+#at a{
+	color: #794a28;
+	font-size: 1.1em;
+}
 
 
 .bt ul li{
 	float:left;
 	margin: 0;
 	padding: 0;
+	margin-top: -30px;
 	list-style:none;
 	font-family: 'Caesar Dressing', cursive;
 	}
@@ -136,7 +110,6 @@ header img {
 	text-decoration: none;
 	}
 
-
 .bt li a:visted {
 	color: #133062;
 }
@@ -144,7 +117,6 @@ header img {
 .bt li a:hover {
 	color: #794a28;
 	text-decoration: underline;
-
 }
 
 .bt li a:active; {
@@ -161,8 +133,9 @@ ul.submenu {
 	position:absolute;
 	left:-9000em;
 	z-index:1;
-	width:135px;
+	width: 135px;
 	background-color: #aaacb1;
+	padding-top: 10px;
 	-moz-box-shadow: 	1px 1px 5px #172742, -1px -1px 5px #172742; 
 	-o-box-shadow:		1px 1px 5px #172742, -1px -1px 5px #172742; 
 	-webkit-box-shadow: 1px 1px 5px #172742, -1px -1px 5px #172742;
@@ -177,18 +150,20 @@ ul.submenu li {
 	float:none;
 	font-size: 0.8em;
 	position:relative;
+	margin-top: 1px;
 	}
 
 /*============body============*/
 
+.container img {
+	display: block;
+	margin: 10px auto;
+	-moz-box-shadow: 	1px 1px 5px #66676c, -1px -1px 5px #66676c; 
+	-o-box-shadow:		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
+	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
+	box-shadow: 		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
+	}	
 
-
-.container {
-	background-color: rgba(170, 172, 178, 0.8);	
-	padding-top: 10px;
-	padding-bottom: 20px;
-
-}
 
 .container a {
 	text-align: center;
@@ -214,11 +189,20 @@ ul.submenu li {
 }
 
 
+#meet {
+	text-align: center;
+}
 
 
+.facts li {
+	list-style-type: circle;
+}
 
-
-
+.facts {
+  	display:block;
+  	width: 60.240963855% /*600px*/;
+	margin:0 auto; 
+}
 
 
 
@@ -227,7 +211,7 @@ ul.submenu li {
 /*=========footer============*/
 
 footer {
-	min-width: 100%;
+	width: 100%;
 	background-color: #15346b;
 	margin: 0 auto;
 	padding-top: 30px;
@@ -270,7 +254,7 @@ footer a:active; {
 	}
 
 footer p {
-	padding-left: 20px;
+	padding-left: 02.008032128% /*20px*/;
 	color: #aaabb1;
 }
 
@@ -284,13 +268,13 @@ footer p {
 
 
 #leslie p{
-	padding-left: 750px;
+	padding-left: 75.301204819% /*750px*/;
 	padding-bottom: 15px;
 }
 
 
 .red dl {
-	width: 946.2px; 
+	width: 95% /*946.2px*/; 
 	margin: 0 auto; 
 	padding: 10px;
 	overflow: hidden;
@@ -321,4 +305,17 @@ footer p {
 .animal {
 	display: block;
 }
+
+
+.fb-like-box { 
+	display: block; 
+	margin: 0 auto; 
+}
+
+.youtube_player { 
+	display: block;
+	margin: 0 auto; 
+}
+
+
 

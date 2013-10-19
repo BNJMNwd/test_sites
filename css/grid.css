@@ -14,13 +14,15 @@ Licensed under GPL and MIT
    Base 966px Grid
    ========================================================================== */
    
-	body {min-width: 996px;}
+	body {
+	max-width: 996px;
+	margin: 0 auto;
+	}
 
-	/* Container */
+	/*Container */
 	.container {
-		margin-left: auto;
-		margin-right: auto;
-		width: 996px;
+		width: 100%;
+		margin: 0 auto;
 	}
 
 	/* Global */

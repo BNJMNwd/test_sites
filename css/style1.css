@@ -1,6 +1,16 @@
 /*=====Exotic Animal css=======*/
 
+#nav_bar_mobile {
+	display: none;
+}
 
+
+.t_shirt img {
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+	
 .fb-like-box {
 	background-color: white;
 }
@@ -27,10 +37,11 @@ h1 {
 	display: block; 
 	margin-left: auto;
 	margin-right: auto;	
-	max-width: 90.361445783% /*900px*/;
+	width: 90.361445783% /*900px*/;
 	text-align: center; 
 	font-size: 1em;
 	line-height: 1.2em;
+	clear: left;
 }
 
 .largep {
@@ -39,6 +50,9 @@ h1 {
 }
 
 h2 {
+	margin-left: auto;
+ 	margin-right: auto;
+	max-width: 90%;
 	font-family: 'Caesar Dressing', cursive;
 	color: #133062;
 	font-size: 1.8em;
@@ -46,6 +60,9 @@ h2 {
 	}
 	
  h3, h4 {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	max-width: 90%;
 	font-family: 'Caesar Dressing', cursive;
 	color: #133062;
 	font-size: 1.4em;
@@ -73,14 +90,10 @@ header {
 
 header img {
 	float: left;
+	max-width: 100%;
 	padding-left: 02.008032128% /*20px*/;
 	margin-right: 02.008032128% /*20px*/;
 	margin-top: -80px;
-	-moz-box-shadow: 	none;
-	-o-box-shadow:		none;
-	-webkit-box-shadow: none;
-	box-shadow: 		none;
-	
 	}
 	
 /*====== nav ======*/
@@ -291,7 +304,7 @@ footer p {
 
 
 .green dl {
-	width: 946.2px; 
+	width: 95%; /*946.2px; */
 	margin: 0 auto; 
 	padding: 10px;
 	overflow: hidden;
@@ -314,8 +327,282 @@ footer p {
 
 .youtube_player { 
 	display: block;
+	min-width: 560px;
+	min-height: 315px;
+	max-width: 90%;
 	margin: 0 auto; 
+	
 }
 
 
+
+
+/* =============================================================================
+   Less than 768px
+   ========================================================================== */
+   
+@media only screen and (max-width: 767px) {
+
+#logo_2 {
+	width: 70%;	
+	padding-top: 100px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#nav_bar_mobile {
+	display: block;
+}
+
+#nav_bar_mobile a {
+	color: #794a28;
+	font-size: 1.5em;
+}
+
+
+#nav_bar_mobile ul {
+	list-style:none;
+	font-family: 'Caesar Dressing', cursive;
+	}
+
+#nav_bar_mobile li {
+		text-align: center;
+}
+
+#nav_bar_mobile li a {
+	line-height: 2em;
+	color:#133062;
+	text-decoration: none;
+	}
+
+#nav_bar_mobile li a:visted {
+	color: #133062;
+}
+
+#nav_bar_mobile li a:hover {
+	color: #794a28;
+	text-decoration: underline;
+}
+
+#nav_bar_mobile li a:active; {
+	color: #f7e71e;
+}
+
+
+
+#nav_bar {
+	display: none;
+}
+
+
+
+.youtube_player {	
+	min-width: 373.333333333px;
+	min-height: 210px;
+	}
+
+
+.pcenter{
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 10px; 
+}
+
+header img {
+	float: none;
+	padding-left: 02.008032128% /*20px*/;
+	margin-right: 02.008032128% /*20px*/;
+	margin-top: -80px;
+	}
+	
+
+.pcenter{
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 30px; 
+		padding-right: 30px; 
+	}
+
+/*====== nav ======*/
+
+/*
+.bt ul li{
+	float:none;
+	text-align: center;
+	margin: 10px auto;
+	padding: 0;
+	margin-top: -30px;
+	}
+
+.bt li a {
+	display:block;
+	}
+
+
+
+li{
+	position:relative;
+	font-size: 1.5em;
+	}
+
+ul.submenu {
+	 display: none;
+	}
+	
+*/	
+
+#leslie {
+	display: none;
+}
+
+footer section {
+	display: none;
+}
+
+#footer_contact {
+	font-size: .8em;
+	padding-bottom: 25px;
+}
+
+.green dl {
+	width: 90%; 
+	margin: 0 auto; 
+	padding-top: 10px;
+}
+	
+.green dl li {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20%;
+	padding-right: 20%;
+	clear: left; 
+	}
+
+}
+
+
+
+/*=================================
+	less then 480
+===================================*/
+
+@media only screen and (max-width: 479px) {
+
+#logo_2 {
+	width: 80%;	
+	padding-top: 100px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#nav_bar_mobile {
+	display: block;
+}
+
+#nav_bar_mobile a {
+	color: #794a28;
+	font-size: 1.5em;
+}
+
+
+#nav_bar_mobile ul {
+	list-style:none;
+	font-family: 'Caesar Dressing', cursive;
+	}
+
+#nav_bar_mobile li {
+		text-align: center;
+
+}
+
+
+#nav_bar_mobile li a {
+	line-height: 2em;
+	color:#133062;
+	text-decoration: none;
+	}
+
+#nav_bar_mobile li a:visted {
+	color: #133062;
+}
+
+#nav_bar_mobile li a:hover {
+	color: #794a28;
+	text-decoration: underline;
+}
+
+#nav_bar_mobile li a:active; {
+	color: #f7e71e;
+}
+
+
+
+
+
+#nav_bar {
+	display: none;
+}
+
+
+
+
+.youtube_player {
+min-width: 186.666666667px;
+min-height: 130px;
+	}
+
+
+.container img {
+	clear: left; 
+	width: 100%;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+
+.pcenter{
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 10px; 
+		padding-right: 10px; 
+	}
+
+header img {
+	float: none;
+	padding-left: 02.008032128% /*20px*/;
+	margin-right: 02.008032128% /*20px*/;
+	margin-top: -80px;
+	}
+
+.green dl {
+	width: 90%; 
+	margin: 0 auto; 
+	padding-top: 10px;
+	
+.green dl li {
+	padding-left: 10%;
+	padding-right: 10%;
+	}
+
+
+/*====== nav ======*/
+
+
+
+
+
+#leslie {
+	display: none;
+}
+
+footer section {
+	display: none;
+}
+
+#footer_contact {
+	font-size: .8em;
+	padding-bottom: 25px;
+}
+
+}
 

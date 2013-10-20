@@ -139,7 +139,8 @@ Licensed under GPL and MIT
 
 @media only screen and (min-width: 768px) and (max-width: 995px) {
 	
-	body {min-width: 768px;}
+	body {min-width: 100%;
+			margin: 0 auto;}
 
 	/* Container | 768px */
 	.container {width: 768px;}
@@ -156,8 +157,11 @@ Licensed under GPL and MIT
 	.grid_9,
 	.grid_10,
 	.grid_11,
-	.grid_12 {margin-left: 8px;
-		margin-right: 8px;}
+	.grid_12 {
+	width:90%;
+	margin-left: 8px;
+	margin-right: 8px;
+	}
 		
 
 	/* Base Grid | 768px */
@@ -236,12 +240,14 @@ Licensed under GPL and MIT
    Less than 768px
    ========================================================================== */
    
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 100%) {
 	
-	body{min-width:0;}
+	/*body{max-width:768px;
+			margin: 0 auto;}*/ 
 	
 	/* Container */
-	.container { margin:0 auto; width:456px; overflow:hidden; }
+	.container {width:100%;
+		 	margin: 0 auto;}
 	
 	/* Global */
 	.container .grid_1,
@@ -256,7 +262,7 @@ Licensed under GPL and MIT
 	.container .grid_10,
 	.container .grid_11,
 	.container .grid_12	{
-		width:416px;
+		width:90%;
 		clear: both;
 		float: none;
 		margin-left: 0;
@@ -313,7 +319,7 @@ Licensed under GPL and MIT
 	
 	/* Container */
 	
-	.container { width:300px;}
+	.container { width:100%;}
 	
 	/* Global */
 	
@@ -329,6 +335,9 @@ Licensed under GPL and MIT
 	.container .grid_10,
 	.container .grid_11,
 	.container .grid_12	{
-		width:260px;
+		width:90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 10px; 
 	}
 }

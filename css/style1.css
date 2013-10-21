@@ -1,14 +1,12 @@
 /*=====Exotic Animal css=======*/
 
-
-.t_shirt img {
-	max-width: 90%;
-	margin-left: auto;
-	margin-right: auto;	
-	}
+#test {
+margin-left: auto;
+ 	margin-right: auto;
+}
 	
 .fb-like-box {
-	background-color: white;
+	background-color: black;
 	}
 
 .container {
@@ -215,6 +213,11 @@ ul.submenu li {
 	}
 
 
+.t_shirt img {
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;	
+	}
 /*=======footer============*/
 
 footer {

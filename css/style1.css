@@ -1,13 +1,11 @@
 /*=====Exotic Animal css=======*/
 
-#test {
-		margin-left: auto;
- 	margin-right: auto;
-}
 
 
 .fb-like-box {
-	background-color: yellow;
+	background-color: white;
+	margin-left: auto;
+ 	margin-right: auto;
 	}
 
 .container {

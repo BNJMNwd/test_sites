@@ -1,26 +1,23 @@
 /*=====Exotic Animal css=======*/
 
-#nav_bar_mobile {
-	display: none;
-}
 
 
-.t_shirt img {
-	max-width: 90%;
-	margin-left: auto;
-	margin-right: auto;	
-}
+
+
 	
 .fb-like-box {
-	background-color: white;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+
+
 
 .container {
 	background-color: rgba(170, 172, 178, 0.8);	
 }
 
-
-	
 body {
 	font-family: 'Marcellus', serif;
 	padding: 0;
@@ -215,7 +212,11 @@ ul.submenu li {
 }
 
 
-
+.t_shirt img {
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;	
+}
 
 
 /*=========footer============*/
@@ -341,7 +342,6 @@ footer p {
 @media only screen and (max-width: 767px) {
 
 
-
 #logo_2 {
 	width: 70%;	
 	padding-top: 100px;
@@ -357,7 +357,6 @@ footer p {
 	color: #794a28;
 	font-size: 1.3em;
 }
-
 
 #nav_bar_mobile ul {
 	list-style:none;
@@ -387,19 +386,14 @@ footer p {
 	color: #f7e71e;
 	}
 
-
-
 #nav_bar {
 	display: none;
 }
-
-
 
 .youtube_player {	
 	min-width: 373.333333333px;
 	min-height: 210px;
 	}
-
 
 .pcenter{
 		margin-left: auto;
@@ -414,7 +408,6 @@ header img {
 	margin-top: -80px;
 	}
 	
-
 .pcenter{
 		margin-left: auto;
 		margin-right: auto;
@@ -455,7 +448,6 @@ footer section {
 }
 
 
-
 /*=================================
 	less then 480
 ===================================*/
@@ -471,13 +463,12 @@ footer section {
 
 #nav_bar_mobile {
 	display: block;
-}
+	}
 
 #nav_bar_mobile a {
 	color: #794a28;
 	font-size: 1.4em;
-}
-
+	}
 
 #nav_bar_mobile ul {
 	list-style:none;
@@ -485,10 +476,9 @@ footer section {
 	}
 
 #nav_bar_mobile li {
-		text-align: center;
+	text-align: center;
 
-}
-
+	}
 
 #nav_bar_mobile li a {
 	line-height: 2em;
@@ -498,27 +488,20 @@ footer section {
 
 #nav_bar_mobile li a:visted {
 	color: #133062;
-}
+	}
 
 #nav_bar_mobile li a:hover {
 	color: #794a28;
 	text-decoration: underline;
-}
+	}
 
 #nav_bar_mobile li a:active; {
 	color: #f7e71e;
-}
-
-
-
-
+	}
 
 #nav_bar {
 	display: none;
-}
-
-
-
+	}
 
 .youtube_player {
 min-width: 186.666666667px;
@@ -531,8 +514,7 @@ min-height: 130px;
 	width: 100%;
 	margin-left: auto; 
 	margin-right: auto;
-}
-
+	}
 
 .pcenter{
 		margin-left: auto;
@@ -557,10 +539,6 @@ header img {
 	padding-left: 10%;
 	padding-right: 10%;
 	}
-
-
-/*====== nav ======*/
-
 
 
 

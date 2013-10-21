@@ -171,6 +171,7 @@ ul.submenu li {
 .container img {
 	display: block;
 	margin: 10px auto;
+	max-width: 90%;
 	-moz-box-shadow: 	1px 1px 5px #66676c, -1px -1px 5px #66676c; 
 	-o-box-shadow:		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
 	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
@@ -343,6 +344,8 @@ footer p {
    
 @media only screen and (max-width: 767px) {
 
+
+
 #logo_2 {
 	width: 70%;	
 	padding-top: 100px;
@@ -356,7 +359,7 @@ footer p {
 
 #nav_bar_mobile a {
 	color: #794a28;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 
@@ -425,31 +428,6 @@ header img {
 
 /*====== nav ======*/
 
-/*
-.bt ul li{
-	float:none;
-	text-align: center;
-	margin: 10px auto;
-	padding: 0;
-	margin-top: -30px;
-	}
-
-.bt li a {
-	display:block;
-	}
-
-
-
-li{
-	position:relative;
-	font-size: 1.5em;
-	}
-
-ul.submenu {
-	 display: none;
-	}
-	
-*/	
 
 #leslie {
 	display: none;
@@ -501,7 +479,7 @@ footer section {
 
 #nav_bar_mobile a {
 	color: #794a28;
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 
 

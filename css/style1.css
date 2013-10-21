@@ -198,10 +198,6 @@ ul.submenu li {
 	color: #f7e71e;
 	}
 
-.container iframe {
-	align: center;
-}
-
 
 #meet {
 	text-align: center;
@@ -287,14 +283,14 @@ footer p {
 }
 
 
-.red dl {
+.red ul {
 	width: 95% /*946.2px*/; 
 	margin: 0 auto; 
 	padding: 10px;
 	overflow: hidden;
 }
 
-.red dl li {
+.red ul li {
 	margin-left: 48.7333333333px;
 	float: left; 
 	}
@@ -304,14 +300,14 @@ footer p {
 }
 
 
-.green dl {
+.green ul {
 	width: 95%; /*946.2px; */
 	margin: 0 auto; 
 	padding: 10px;
 	overflow: hidden;
 }
 
-.green dl li {
+.green ul li {
 	padding-left: 28.7333333px;
 	float: left; 
 	}
@@ -380,16 +376,16 @@ footer p {
 
 #nav_bar_mobile li a:visted {
 	color: #133062;
-}
+	}
 
 #nav_bar_mobile li a:hover {
 	color: #794a28;
 	text-decoration: underline;
-}
+	}
 
 #nav_bar_mobile li a:active; {
 	color: #f7e71e;
-}
+	}
 
 
 
@@ -442,13 +438,13 @@ footer section {
 	padding-bottom: 25px;
 }
 
-.green dl {
+.green ul {
 	width: 90%; 
 	margin: 0 auto; 
 	padding-top: 10px;
 }
 	
-.green dl li {
+.green ul li {
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 20%;
@@ -552,12 +548,12 @@ header img {
 	margin-top: -80px;
 	}
 
-.green dl {
+.green ul {
 	width: 90%; 
 	margin: 0 auto; 
 	padding-top: 10px;
 	
-.green dl li {
+.green ul li {
 	padding-left: 10%;
 	padding-right: 10%;
 	}
